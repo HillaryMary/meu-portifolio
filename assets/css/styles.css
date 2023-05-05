@@ -276,7 +276,7 @@ body.dark-theme {
 }
 
 .button i {
-  font-size: 1.25rem;
+  font-size: 0.8rem;
 }
 
 .button:hover {
@@ -513,15 +513,11 @@ body.dark-theme {
 
 @media screen and (min-width: 992px) {
 
-  .projects__content,
-  .skills__content {
+  .projects__content {
     grid-template-columns: repeat(2, 332px);
   }
 
-  .skills__content {
-    justify-content: center;
-    column-gap: 3rem;
-  }
+  
 
   .container {
     margin-left: auto;
